@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at top center, #1b2735 0%, #090a0f 100%);
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+.festive-title {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  color: #ffccff;
+  text-shadow: 0 0 20px #ff00ff;
+}
+
+.card-photo {
+  cursor: pointer;
+  border: none;
+  background: rgba(255, 255, 255, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border-radius: 1rem;
+}
+
+.card-photo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(255, 200, 255, 0.6);
+}
+
+.card-img-top {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.modal-content {
+  border-radius: 1rem;
+  box-shadow: 0 0 30px rgba(255, 200, 255, 0.5);
+}
+
+#confetti-canvas {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.navbar .btn { border-radius: .5rem; }
