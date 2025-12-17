@@ -1,0 +1,33 @@
+{
+  "title": "Un an nou fericit,Alexa!",
+  "photos": [ 
+
+
+
+  
+    {
+      "id": "p1",
+      "file": "images/1a.jpg",
+      "title": "Un nou capitol scris din zâmbete",
+      "short": "Începem anul cu inimile pline.",
+      "long": "Îți mulțumesc pentru fiecare zâmbet!",
+      "extra_buttons": [ ]
+    },
+    {
+      "id": "p2",
+      "file": "images/2a.jpg",
+      "title": "Împreună, orice început e mai ușor",
+      "short": "Mai mult decât un an — o poveste.",
+      "long": "Îmi doresc multe alte momente ca acesta, doar noi, împreună.",
+      "extra_buttons": []
+    },
+    {
+      "id": "p3",
+      "file": "images/3a.jpg",
+      "title": "An nou, inimă plină.",
+      "short": "Râsul tău e molipsitor.",
+      "long": "Când râzi tu, râde și inima mea. La mulți ani fericiți!",
+      "extra_buttons": []
+    }
+  ]
+}
